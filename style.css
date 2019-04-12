@@ -1,0 +1,407 @@
+body{
+	overflow: scroll;
+	width: 1300px;
+	margin: 0 auto;
+}
+.head_picture{
+	display: inline-block;
+	width: 40px;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+.link{
+	margin-left: 30px;
+	font-size: 13px;
+	font-family: 'circe-extra-bold', Arial, Verdana, sans-serif;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+.link:hover{
+	color:rgb(0, 100, 128);
+}
+.home{
+	background-color: orangered;
+}
+.home:hover{
+	color: black;
+}
+.block{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(0, 100, 128);
+}
+#block_title{
+	padding-top: 80px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+#block_text{
+	margin-top:-25px;
+	color:white;
+	text-align:center;
+}
+.block_form_name{
+	margin-left: 200px;
+}
+.block_form_input{
+	padding:5px 0 5px 20px;
+	width: 200px;
+}
+#block_form_button{
+	width: 200px;
+	padding:5px 0 5px 0;
+	text-align: center;
+	background-color: orangered;
+	border: solid orangered;
+}
+#notebook{
+	display: block;
+	width:400px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top:170px;
+}
+#title_services{
+	text-align: center;
+	margin-top: 200px;
+}
+#text_center{
+	text-align: center;
+	margin-top: -25px;
+}
+#container{
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.left_block{
+	width: 50%;
+	float: left;
+}
+.right_block{
+	width: 50%;
+	float: left;
+}
+.picture{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 15px;
+}
+.first_picture{
+	margin-top: 12px;
+}
+h3{
+	display: block;
+	font-size: 14px;
+}
+.lorem{
+	display: block;
+	margin-left: 46px;
+}
+#cont{
+	width: 100%;
+}
+.left_fon{
+	width: 50%;
+	height: 400px;
+	float:left;
+	background-image: url(pictures//hre.jpg);
+	background-size: cover;
+	
+}
+.right_text{
+	color: white;
+	width: 50%;
+	height: 400px;
+	float: left;
+	background-color: orangered;
+}
+h4{
+	display: block;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+#about_us{
+	display: block;
+	margin-left: 50px;
+	line-height: 1.5;
+}
+#about_us_button{
+	margin-left: 50px;
+	padding: 10px;
+	border: 0.5px solid black;
+	background-color: orangered;
+	color: white;
+}
+.price{
+	height: 1000px;
+	width: 100%;
+	background-color: rgb(169, 226, 185);
+}
+.choose_price{
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 500px;
+}
+.preprice{
+	display: block;
+	margin-top: -50px;
+	margin-left: 485px;
+	margin-bottom: 30px
+	
+}
+#basic_plan{
+	margin-left: 275px;
+	width: 250px;
+	height: 320px;
+	background-color: white;
+	padding-top: 20px;
+	box-sizing: border-box;
+	float:left;
+}
+.plans{
+	text-align: center;
+}
+.cost{
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	color: orangered;
+}
+.per_month{
+	text-align: center;
+	font-size: 10px;
+	margin-top: -35px;
+	margin-bottom: 20px;
+}
+hr{
+	width: 200px;
+}
+.string{
+	text-align: center;
+	font-size: 10px;
+}
+.get_started{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: orangered;
+	border: solid orangered;
+	font-size: 10px;
+	height: 35px;
+	width: 100px;
+}
+#premium_plan{
+	margin-top: -15px;
+	float: left;
+	background-color: rgb(0, 100, 128);
+	width: 250px;
+	height: 350px;
+	color: white;
+}
+.pl1{
+	text-align: center;
+	margin-top: 50px;
+}
+#gold_plan{
+	width: 250px;
+	height: 320px;
+	background-color: white;
+	padding-top: 20px;
+	box-sizing: border-box;
+	float:left;
+}
+.how_it_works{
+	margin-top:200px;
+	margin-left: 550px;
+}
+#steps{
+	margin-top: 100px;
+	text-align: center;
+}
+.step{
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+}
+.arrow{
+	width: 150px;
+	height: 70px;
+}
+.pods{
+	width: 14.28%;
+	float: left;
+}
+.block_step{
+	display: block;
+	font-weight: bold;
+	margin-top: 60px;
+	font-size: 20px;
+}
+.get_start_button{
+	height: 40px;
+	width: 150px;
+	margin-top: 100px;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	border: solid orangered;
+	background-color: orangered;
+}
+.reviews{
+	box-sizing: border-box;
+	height: 730px;
+	margin-top: 100px;
+	background-color: orangered;
+	padding-left: 130px;
+	padding-top: 60px;
+}
+h6{
+	text-align: center;
+	margin-left: -130px;
+	color: white;
+	font-size: 25px;
+}
+.explain{
+	text-align: center;
+	margin-left: -130px;
+	margin-top: -65px;
+	color: white;
+	padding-bottom: 30px;
+}
+.people{
+	margin-left: 20px;
+	margin-top: 15px;
+	height: 200px;
+	width: 490px;
+	background-color: white;
+	float: left;
+}
+.wom{
+	display: block;
+	margin-top: 30px;
+	margin-left: 20px;
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	float: left;
+}
+.revs{
+	margin-left: 20px;
+	margin-top: 30px;
+	float: left;
+	line-height: 1.5;
+}
+.person{
+	color: rgb(169, 226, 185);
+	margin-left: 160px;
+	font-weight: bold;
+}
+.name{
+	color: rgb(255, 20, 20);
+}
+.newsletter{
+	margin-top: 100px;
+	text-align: center;
+}
+.text_under_newsletter{
+	margin-top: -25px;
+	text-align: center;
+}
+#newsletter_form{
+	margin-top: 30px;
+	text-align: center;
+}
+.newsletter_form_name{
+	width: 250px;
+	padding: 8px 0px 8px 20px;
+}
+.newsletter_form_email{
+	width: 320px;
+	padding: 8px 0px 8px 20px;
+	margin-left: 10px;
+}
+.newsletter_form_button{
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 200px;
+	margin-left: 10px;
+	background-color: orangered;
+	border: solid orangered;
+	color: white;
+}
+.world{
+	margin: 0 auto;
+	height: 600px;
+	width: 1000px;
+	background-image: url(pictures//ll.png);
+}
+.icon{
+	margin-top: 330px;
+	margin-left: 460px;
+}
+#speech{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(10, 10, 50);
+	background-size: cover;
+	border-radius: 50%;
+	margin-top: -240px;
+	margin-left: 380px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+.adress{
+	font-size: 15px;
+	font-weight: bold;
+}
+.email{
+	color: orangered;
+}
+.line{
+	margin-top: 50px;
+	width: 100%;
+}
+.sections{
+	margin-top: 50px;
+	text-align: center;
+}
+.phone{
+	text-align: center;
+	margin-top: 20px;
+}
+.phone{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 580px;
+}
+.number{
+	margin-top: 25px;
+}
+.social_net{
+	text-align: center;
+}
+.net{
+	width: 30px;
+	height: 30px;
+}
+.rights{
+	margin-top: 30px;
+	background-color: rgb(0, 100, 128);
+	color: white;
+	height: 30px;
+	text-align: center;
+	padding-top: 7px; 
+}
